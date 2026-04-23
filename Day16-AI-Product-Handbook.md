@@ -63,7 +63,7 @@ One-sentence description:
 For các chuỗi bánh mì nội đô
 who struggle with tỷ lệ hủy đơn cao và chi phí vận chuyển đắt đỏ,
 our product helps them tối ưu hóa doanh thu trên toàn chuỗi và giảm 20% chi phí ship
-through cơ chế tự động điều phối đơn hàng dựa trên tồn kho thực tế (Stock-aware Routing),
+through cơ chế tự động điều phối đơn hàng dựa trên tồn kho thực tế,
 unlike các phần mềm POS truyền thống chỉ quản lý tại chỗ,
 because we can leverage khả năng phân tích dữ liệu bán hàng lịch sử để dự báo tồn kho và tối ưu hóa lộ trình giao hàng theo thời gian thực.
 
@@ -91,14 +91,14 @@ Why competitors cannot easily replicate this:
 
 | Layer | Estimate | Key assumptions | Confidence |
 |---|---|---|---|
-| TAM | $5M/year | Toàn bộ thị trường phần mềm quản lý F&B chuỗi tại Đông Nam Á. | low  |
-| SAM | $500k/year | Các chuỗi bánh mì và đồ ăn nhanh có trên 5 cửa hàng tại các thành phố lớn ở Việt Nam. | low  |
-| SOM | $50K/year | 100 chuỗi bánh mì đầu tiên tại Hà Nội và TP.HCM trong 24 tháng. | med |
+| TAM | 2.500 Tỷ | Toàn bộ chi tiêu cho phần mềm quản lý (POS, CRM, Delivery) của các SMB F&B tại Đông Nam Á. | medium  |
+| SAM | 500 Tỷ | 50.000 cửa hàng F&B "Digital-ready" tại Việt Nam (có bán qua app ship, ưu tiên phân khúc trung/cao cấp). | medium  |
+| SOM | 6 Tỷ | 1.000 khách hàng mục tiêu đầu tiên tại các khu vực mật độ cao của Hà Nội (Cầu Giấy, Đống Đa, Hai Bà Trưng, Vinhome,...). | high |
 
 **Top 3 unknowns requiring further research:**
 1. Khả năng tích hợp (API) của các bên giao hàng (Grab, Shopee) có cho phép chuyển đổi địa điểm lấy hàng tự động hay không?
 
-2. Mức độ sẵn sàng chia sẻ dữ liệu tồn kho real-time của nhân viên tại cửa hàng (thói quen cập nhật kho).
+2. Mức độ sẵn sàng chia sẻ dữ liệu tồn kho real-time của nhân viên tại cửa hàng.
 
 Chi phí t3. hực tế để duy trì hệ thống AI xử lý luồng đơn lớn so với phí subscription mà chủ quán sẵn sàng trả.
 
